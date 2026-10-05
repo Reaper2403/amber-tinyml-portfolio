@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "name": "imu_office_int8",
+      "path": "models/imu_office_int8.tflite",
+      "bytes": 100736,
+      "sha256": "17219aa09651f6f62c68ad62af5359d5c629138bc95de0651074deea1d0a115d",
+      "input_shape": [
+        1,
+        150,
+        6
+      ],
+      "labels": [
+        "idle_rest",
+        "typing_keyboard",
+        "phone_interaction",
+        "drink",
+        "walk_transition",
+        "misc_hand_activity"
+      ],
+      "expected_input_dtype": "int8",
+      "expected_output_dtype": "int8"
+    },
+    {
+      "name": "audio_device_int8",
+      "path": "models/audio_device_int8.tflite",
+      "bytes": 31656,
+      "sha256": "521643cfe227b3183d6d7084a1695dfb022efcaee87f862cd63409959cff5d30",
+      "input_shape": [
+        1,
+        40,
+        101,
+        1
+      ],
+      "labels": [
+        "meeting_like",
+        "music_present",
+        "nonsocial_noise",
+        "speech_present"
+      ],
+      "expected_input_dtype": "int8",
+      "expected_output_dtype": "int8"
+    }
+  ],
+  "origin": "Local firmware model headers; not regenerated or retrained for this portfolio."
+}

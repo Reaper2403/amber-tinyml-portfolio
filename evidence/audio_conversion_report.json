@@ -1,0 +1,41 @@
+{
+  "stage_name": "stage2_device_finetune_audio",
+  "checkpoint": "stage2_device_finetune_best.pt",
+  "label_names": [
+    "meeting_like",
+    "music_present",
+    "nonsocial_noise",
+    "speech_present"
+  ],
+  "frontend_config": {
+    "sample_rate_hz": 16000,
+    "clip_duration_ms": 2000,
+    "frame_length_ms": 30,
+    "frame_step_ms": 20,
+    "fft_length": 512,
+    "num_mel_bins": 40,
+    "lower_edge_hz": 20.0,
+    "upper_edge_hz": 7600.0,
+    "log_clip_min_db": -80.0,
+    "log_clip_max_db": 0.0
+  },
+  "model_cfg": {
+    "stem_filters": 32,
+    "block_filters": [
+      32,
+      48,
+      64,
+      64
+    ],
+    "dropout": 0.15
+  },
+  "input_shape": [
+    40,
+    101,
+    1
+  ],
+  "float32_tflite": "stage2_device_finetune_audio_float32.tflite",
+  "int8_tflite": "stage2_device_finetune_audio_int8.tflite",
+  "keras_vs_float32_tflite_max_abs_diff": 5.7220458984375e-06,
+  "keras_vs_int8_tflite_max_abs_diff": 1.0624279230833054
+}

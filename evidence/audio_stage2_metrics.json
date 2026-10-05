@@ -1,0 +1,32 @@
+{
+  "device_val": {
+    "split_name": "stage2/device_val",
+    "loss": 0.48577067255973816,
+    "accuracy": 0.8717948717948718,
+    "macro_f1": 0.8723257100193854,
+    "f1_meeting_like": 0.8346456692913385,
+    "f1_music_present": 0.9247311827956989,
+    "f1_nonsocial_noise": 0.9247311827956989,
+    "f1_speech_present": 0.8051948051948052
+  },
+  "device_test": {
+    "split_name": "stage2/device_test",
+    "loss": 0.7164333164691925,
+    "accuracy": 0.6974358974358974,
+    "macro_f1": 0.6697369572829133,
+    "f1_meeting_like": 0.796875,
+    "f1_music_present": 0.47619047619047616,
+    "f1_nonsocial_noise": 0.7058823529411765,
+    "f1_speech_present": 0.7
+  },
+  "public_test": {
+    "split_name": "stage2/public_test",
+    "loss": 0.22649594043579066,
+    "accuracy": 0.8980317761441783,
+    "macro_f1": 0.8638299438186618,
+    "f1_meeting_like": 0.9765478424015009,
+    "f1_music_present": 0.8961864406779662,
+    "f1_nonsocial_noise": 0.6023362112747588,
+    "f1_speech_present": 0.9802492809204219
+  }
+}

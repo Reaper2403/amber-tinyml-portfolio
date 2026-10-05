@@ -1,0 +1,48 @@
+{
+  "source_commit": "14fb5b2bdf671a1b0b3926dca9d7f49ad33db480",
+  "scope": "Aggregate historical results only; later training-period controls are described in docs/research-methods.md.",
+  "results": {
+    "expanding_refit_core_degree": {
+      "regime": "expanding_refit",
+      "scope": "core",
+      "analysis": "pooled",
+      "measure": "forecastability",
+      "n_trajectories": 521,
+      "pearson_r": 0.40715833964292447,
+      "ci_low": 0.30708937483766285,
+      "ci_high": 0.49554449469572426
+    },
+    "disjoint_refit_core_degree": {
+      "regime": "disjoint_refit",
+      "scope": "core",
+      "analysis": "pooled",
+      "measure": "forecastability",
+      "n_trajectories": 499,
+      "pearson_r": 0.32249238447384626,
+      "ci_low": 0.21923808439598236,
+      "ci_high": 0.41444196422007884
+    },
+    "fixed_model_core_variability_overlap": {
+      "regime": "fixed_original",
+      "scope": "core",
+      "analysis": "person_average_composite",
+      "predictor": "forecastability",
+      "variability_measure": "variability",
+      "n": 521,
+      "pearson_r": -0.9121934476195503,
+      "spearman_r": -0.9087743593137729
+    },
+    "original_h1_after_sd_entropy_control": {
+      "regime": "fixed_original",
+      "scope": "core",
+      "analysis": "residual_variability_entropy",
+      "measure": "forecastability",
+      "n_trajectories": 521,
+      "pearson_r": 0.22999774253581529,
+      "ci_low": 0.04919973506382645,
+      "ci_high": 0.40910774919017195,
+      "pre_specified_threshold": 0.3,
+      "passed": false
+    }
+  }
+}

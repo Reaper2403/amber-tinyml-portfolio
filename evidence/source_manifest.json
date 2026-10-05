@@ -1,0 +1,226 @@
+{
+  "curation_date": "2026-10-05",
+  "notes": [
+    "Original repositories remain private. This publication contains only the selected files listed here.",
+    "Local firmware is a working-tree snapshot, newer than the audio-only upstream main entry point; no commit ancestry is claimed for local changes.",
+    "No raw sensor recordings, participant identifiers, phone databases, transcripts, or credentials are included."
+  ],
+  "files": [
+    {
+      "published_path": "src/imu/model.py",
+      "source_repository": "Reaper2403/amber-watchhar-stage1",
+      "source_path": "stage1_pipeline/model.py",
+      "source_sha256": "90bbe4f83a2bdae1516b8a6a41b5598105dd26cd0c19ba1bb0912ce7ecfa5ef8",
+      "published_sha256": "90bbe4f83a2bdae1516b8a6a41b5598105dd26cd0c19ba1bb0912ce7ecfa5ef8",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/imu/training.py",
+      "source_repository": "Reaper2403/amber-watchhar-stage1",
+      "source_path": "stage1_pipeline/training.py",
+      "source_sha256": "a0ae2946d7a272613bc1f46dd47d21e7efb0c46a8b30ed742632528ada77f75c",
+      "published_sha256": "a0ae2946d7a272613bc1f46dd47d21e7efb0c46a8b30ed742632528ada77f75c",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/export/build_stage1_keras_tflite.py",
+      "source_repository": "Reaper2403/amber-watchhar-stage1",
+      "source_path": "tools/build_stage1_keras_tflite.py",
+      "source_sha256": "3620f9ff5629be487cc523ee1197cddb3290890f72bbd24e76d810446da926a2",
+      "published_sha256": "3620f9ff5629be487cc523ee1197cddb3290890f72bbd24e76d810446da926a2",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/export/build_audio_context_tflite.py",
+      "source_repository": "Reaper2403/amber-watchhar-stage1",
+      "source_path": "tools/build_audio_context_tflite.py",
+      "source_sha256": "d698b8bf1c8dae20d55eb150271e002e33ae105f8f04f308d0c3704ef5421d75",
+      "published_sha256": "d698b8bf1c8dae20d55eb150271e002e33ae105f8f04f308d0c3704ef5421d75",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/export/generate_model_header.py",
+      "source_repository": "Reaper2403/amber-watchhar-stage1",
+      "source_path": "tools/generate_model_header.py",
+      "source_sha256": "4dc0c379570c3960c1028e1d498d1b6c995f3284ef8f78fc814b1f589c94636f",
+      "published_sha256": "4dc0c379570c3960c1028e1d498d1b6c995f3284ef8f78fc814b1f589c94636f",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/main.cpp",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/main.cpp",
+      "source_sha256": "d68741bdd79d214906af16f309df3d45f93174fbc1275938bdbb8d662437f4e8",
+      "published_sha256": "d68741bdd79d214906af16f309df3d45f93174fbc1275938bdbb8d662437f4e8",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/audio_context_engine.cpp",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/audio_context_engine.cpp",
+      "source_sha256": "f71794e8a77220d956ad4f4beeeeff11c466422bbf2730589329e7ef52eb6fe7",
+      "published_sha256": "f71794e8a77220d956ad4f4beeeeff11c466422bbf2730589329e7ef52eb6fe7",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/audio_context_engine.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/audio_context_engine.h",
+      "source_sha256": "574130a65c4dd7711636ca3c15fa6c551972c544c46e2ca9ba4d04508704c10d",
+      "published_sha256": "574130a65c4dd7711636ca3c15fa6c551972c544c46e2ca9ba4d04508704c10d",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/imu_inference_engine.cpp",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/imu_inference_engine.cpp",
+      "source_sha256": "b64249919a91acf7adf8422b7535d1e8b335954b97ad9fef47ff04823ff949af",
+      "published_sha256": "b64249919a91acf7adf8422b7535d1e8b335954b97ad9fef47ff04823ff949af",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/imu_inference_engine.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/imu_inference_engine.h",
+      "source_sha256": "3c192c7921fcec6cc558975c305cf11828e301be1b7e722cd33e226c68ee65ac",
+      "published_sha256": "3c192c7921fcec6cc558975c305cf11828e301be1b7e722cd33e226c68ee65ac",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/amber_ble.c",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/amber_ble.c",
+      "source_sha256": "420be0a61ad9dd5b2c5fe97a75717df3f0d824c1f39a39fb87ec2817952eacb1",
+      "published_sha256": "420be0a61ad9dd5b2c5fe97a75717df3f0d824c1f39a39fb87ec2817952eacb1",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/amber_ble.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/amber_ble.h",
+      "source_sha256": "69dadb4609cb36b2aa47ff7749b2624d145a2344922ac4f3d5ab25c9618f9dfa",
+      "published_sha256": "69dadb4609cb36b2aa47ff7749b2624d145a2344922ac4f3d5ab25c9618f9dfa",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/pin_config.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/pin_config.h",
+      "source_sha256": "6729b44254d163bd64395f89af7e581a0a50df11fccab6526b5dd558d21a35be",
+      "published_sha256": "6729b44254d163bd64395f89af7e581a0a50df11fccab6526b5dd558d21a35be",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/models/audio_context_labels.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/models/audio_context_labels.h",
+      "source_sha256": "b0ef6ce059777048149ca79998d941fe1f42ec4990f6a04426ade90744d95a92",
+      "published_sha256": "b0ef6ce059777048149ca79998d941fe1f42ec4990f6a04426ade90744d95a92",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/firmware/models/stage1_classifier_labels.h",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/models/stage1_classifier_labels.h",
+      "source_sha256": "eeedf3447ec81c1e0fd783fbb3ec2b0a9f5ba01907dc60e6cf0b14466ac6aae0",
+      "published_sha256": "eeedf3447ec81c1e0fd783fbb3ec2b0a9f5ba01907dc60e6cf0b14466ac6aae0",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "models/imu_office_int8.tflite",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/models/stage1_classifier_keras_int8.h",
+      "source_sha256": "02c288db9c294b7bb65d335e5e7f4949a90039549ee1ef2ca65eaebabf627e95",
+      "published_sha256": "17219aa09651f6f62c68ad62af5359d5c629138bc95de0651074deea1d0a115d",
+      "transformation": "Extracted embedded byte array; checked declared length and TFL3 identifier",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "models/audio_device_int8.tflite",
+      "source_repository": "Reaper2403/amber_audio_idf_arduino_component_probe",
+      "source_path": "main/models/audio_context_stage2_finetune_int8.h",
+      "source_sha256": "6765842f5b3dc6285208dbe42c90c8a2ff9e7ad32a7f3803b0eb912da972e128",
+      "published_sha256": "521643cfe227b3183d6d7084a1695dfb022efcaee87f862cd63409959cff5d30",
+      "transformation": "Extracted embedded byte array; checked declared length and TFL3 identifier",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "evidence/audio_stage1_metrics.json",
+      "source_repository": "Reaper2403/amber_audio_context",
+      "source_path": "artifacts/audio_ds_cnn_esp32s3_export/stage1_metrics.json",
+      "source_sha256": "a7cfdda019ea1e54f33385cd95c7424d729ecfa1802aec4a0ca2fec27ac4c3d6",
+      "published_sha256": "a7cfdda019ea1e54f33385cd95c7424d729ecfa1802aec4a0ca2fec27ac4c3d6",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "evidence/audio_stage2_metrics.json",
+      "source_repository": "Reaper2403/amber_audio_context",
+      "source_path": "artifacts/audio_ds_cnn_esp32s3_export/stage2_metrics.json",
+      "source_sha256": "c63a2292ce671000c811de10de1ede55459fa899032a4c20e2fa42114cb3b9c5",
+      "published_sha256": "c63a2292ce671000c811de10de1ede55459fa899032a4c20e2fa42114cb3b9c5",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "evidence/audio_frontend_config.json",
+      "source_repository": "Reaper2403/amber_audio_context",
+      "source_path": "artifacts/audio_ds_cnn_esp32s3_export/frontend_config.json",
+      "source_sha256": "dd8b17f63eea1baaaa967159c1d8e377b8bd276f516950a327cf42c311b1850f",
+      "published_sha256": "dd8b17f63eea1baaaa967159c1d8e377b8bd276f516950a327cf42c311b1850f",
+      "transformation": "Byte-for-byte local snapshot",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "evidence/audio_conversion_report.json",
+      "source_repository": "Reaper2403/amber_audio_context",
+      "source_path": "artifacts/audio_context_tflite_exports/stage2_device_finetune/conversion_report.json",
+      "source_sha256": "22fa726e10fa87970ef779e664439e74ccb10d8e667cd12e0737b2594d729531",
+      "published_sha256": "24a69c96be8c43ebe07db84957e40ffaac9d11d0731919c500d3988369eb89e5",
+      "transformation": "Absolute local paths reduced to filenames; numerical values unchanged",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/audio/model.py",
+      "source_repository": "Reaper2403/amber_audio_context",
+      "source_path": "scripts/build_kaggle_training_notebook.py",
+      "source_sha256": "d11f02bdb3df375931cb8306f80e280ef97fc1343ea7974b5186a45e217426d5",
+      "published_sha256": "f3d76bac1919f50d154675799874749b75c459d9a51800ea8bbdf9dcecf11cbe",
+      "transformation": "Extracted two class definitions from code-cell string; added nn import and recorded model configuration",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "src/research/temporal_validation.py",
+      "source_repository": "Reaper2403/amber-thesis",
+      "source_path": "thesis_workspace/experiments/run_referee_robustness_checks.py",
+      "source_sha256": "73cd77d61a0ce12d78cba3aedb96b7ead5c96e47c39557c2f7e3f957b6c4dda7",
+      "published_sha256": "d794941ed3c56bcfe4aa94876a83a5f001d82fe8e9e6da6b9a0939af767dda1c",
+      "transformation": "Selected unchanged definitions with minimal imports; source commit 14fb5b2bdf671a1b0b3926dca9d7f49ad33db480",
+      "snapshot_date": "2026-10-05"
+    },
+    {
+      "published_path": "evidence/research_selected_results.json",
+      "source_repository": "Reaper2403/amber-thesis",
+      "source_path": "thesis_workspace/results/referee_robustness/summary.json",
+      "source_sha256": "0737b66af2ef193f7ea9b5b4348676ddac6784e7b01754b8e7138b169f06bf94",
+      "published_sha256": "2ce6a814acd55ed9e724aa4b3603f11162eb9867505c5168ec6499bfcc01c46e",
+      "transformation": "Selected aggregate result objects; no participant-level rows",
+      "snapshot_date": "2026-10-05"
+    }
+  ]
+}

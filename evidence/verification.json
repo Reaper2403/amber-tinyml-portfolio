@@ -1,0 +1,41 @@
+{
+  "curation_date": "2026-10-05",
+  "artifact_and_source_checks": {
+    "status": "passed",
+    "source_hashes": 24,
+    "model_artifacts": 2,
+    "python_files": 10,
+    "json_files": 9,
+    "svg_files": 2,
+    "local_links": 60
+  },
+  "temporal_helper_checks": {
+    "status": "passed",
+    "synthetic_trajectories": 3,
+    "split_regimes": 2,
+    "checks": [
+      "chronological order",
+      "train/test separation",
+      "disjoint training blocks",
+      "expanding training inclusion",
+      "prediction preserves train-only preprocessing"
+    ],
+    "scope": "Helper checks on synthetic data; not reproduction of study results."
+  },
+  "diagram_review": {
+    "status": "passed",
+    "method": "Both SVGs rendered with macOS Quick Look and visually inspected during curation."
+  },
+  "host_tflite_smoke": {
+    "status": "not_run",
+    "reason": "TensorFlow dependency setup did not complete during curation. An optional smoke script is included; no new host inference result is claimed."
+  },
+  "hardware_benchmark": {
+    "status": "not_run",
+    "scope": "Device timing figures are historical standalone observations, not new combined-load measurements."
+  },
+  "original_dataset_evaluation": {
+    "status": "not_run",
+    "scope": "Historical metrics are republished with split and checkpoint context; not reevaluated for this snapshot."
+  }
+}

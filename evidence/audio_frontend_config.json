@@ -1,0 +1,12 @@
+{
+  "sample_rate_hz": 16000,
+  "clip_duration_ms": 2000,
+  "frame_length_ms": 30,
+  "frame_step_ms": 20,
+  "fft_length": 512,
+  "num_mel_bins": 40,
+  "lower_edge_hz": 20.0,
+  "upper_edge_hz": 7600.0,
+  "log_clip_min_db": -80.0,
+  "log_clip_max_db": 0.0
+}

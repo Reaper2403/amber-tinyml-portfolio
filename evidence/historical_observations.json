@@ -1,0 +1,24 @@
+{
+  "status": "Historical project observations, not measurements repeated during portfolio preparation.",
+  "imu": {
+    "public_validation_macro_f1": 0.6708,
+    "office_finetune_validation_macro_f1": 0.7457,
+    "float32_invoke_ms_approx": 460,
+    "int8_invoke_ms_approx": 30,
+    "source_repository": "Reaper2403/amber-watchhar-stage1",
+    "source_path": "progress.md",
+    "source_sha256": "ef85136fa65ed64d23580f5bfa0aba95c3fa9cf25e32dfd08bb8068b2678b8ea"
+  },
+  "audio": {
+    "int8_invoke_ms_approx": 84,
+    "arena_used_bytes_approx": 89836,
+    "source_repository": "Reaper2403/amber_audio_context",
+    "source_path": "AUDIO_MODEL_LEARNINGS.md",
+    "source_sha256": "8562bcb450b6a893918227247121c4912df92b7ddb4da219b4a755c2d860d21e"
+  },
+  "measurement_limits": [
+    "Invoke times are approximate standalone observations; no raw timing traces are included.",
+    "No combined-load latency, peak RAM, power consumption, or battery-life benchmark is claimed.",
+    "Training metrics have not been re-evaluated on original datasets in this portfolio."
+  ]
+}

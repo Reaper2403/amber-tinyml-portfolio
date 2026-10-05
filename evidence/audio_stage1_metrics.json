@@ -1,0 +1,22 @@
+{
+  "public_val": {
+    "split_name": "stage1/public_val",
+    "loss": 0.15856563665674647,
+    "accuracy": 0.9473086531910061,
+    "macro_f1": 0.9220431412666462,
+    "f1_meeting_like": 0.9705494505494505,
+    "f1_music_present": 0.9584134615384615,
+    "f1_nonsocial_noise": 0.7797522886375875,
+    "f1_speech_present": 0.9794573643410853
+  },
+  "public_test": {
+    "split_name": "stage1/public_test",
+    "loss": 0.1420824742367999,
+    "accuracy": 0.9569599241166706,
+    "macro_f1": 0.9356349816643255,
+    "f1_meeting_like": 0.9901083372585964,
+    "f1_music_present": 0.9605035793631203,
+    "f1_nonsocial_noise": 0.8126684636118598,
+    "f1_speech_present": 0.9792595464237255
+  }
+}
