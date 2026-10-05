@@ -49,10 +49,6 @@ The audio adaptation results expose a real generalization gap. The device test r
 4. [Research evaluation case study](docs/research-methods.md): examples selected from the latest `amber-thesis` archive, pinned to its inspected commit.
 5. [Reproduce the portfolio checks](docs/reproduce.md): verify artifact hashes, run a host inference smoke check, and inspect temporal-split helpers using synthetic data.
 
-## Connection to TinyML research
-
-This experience is relevant to reproducing a compact model, evaluating its trade-offs, and moving it onto an embedded platform. For second-life battery state prediction, the transferable work is the **data-to-device pipeline, quantization, conversion validation, resource measurement and careful evaluation**. Battery models, electrochemistry, and battery-specific validation are the next domain to learn; this portfolio does not contain a battery-state estimator. [Fit and possible research starting points →](docs/thesis-fit.md)
-
 ## Further embedded work
 
 [**KnockKey TinyML**](https://github.com/Reaper2403/KnockKey-TinyML) is a separate public project on the Arduino Nano 33 BLE Sense: temporal tap gestures, full-integer inference, a reproducible training/export workflow, and explicit comparison with counting and timing-rule baselines. Its reported noisy joined-stream benchmark is 88.3% for the int8 model versus 84.4% for filtered timing rules; it reports 204 µs median on-board inference across 40 measurements. The benchmark is a constructed labeled stream, not a prospective field trial. See that repository for the artifacts and protocol.

@@ -25,7 +25,3 @@ The corrected graph introduced `PAD`, requiring registration in the TFLM operato
 - [Recorded conversion report](../evidence/audio_conversion_report.json): float and integer comparisons from the project artifact.
 
 The historical notes report PyTorch/Keras agreement around 1e-6 after the fix and meaningful live predictions on the watch. The included conversion report measures Keras/TFLite differences; it does not independently reproduce every link of that historical parity claim.
-
-## Transferable method
-
-For another sensing domain, the same procedure is useful: freeze representative inputs and expected outputs, compare each conversion boundary, make quantization effects explicit, then measure the real device. A successful build or a small model file alone does not establish a faithful deployment.

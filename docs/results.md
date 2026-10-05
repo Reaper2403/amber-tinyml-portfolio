@@ -17,7 +17,7 @@ The table below separates artifact facts, recorded observations and historical e
 | Audio device validation/test F1 0.8723/0.6697 | [Stage 2 metrics](../evidence/audio_stage2_metrics.json) | Device adaptation helps validation but leaves a substantial test gap |
 | Audio public test F1 after adaptation 0.8638 | [Stage 2 metrics](../evidence/audio_stage2_metrics.json) | Regression relative to the public checkpoint; retained rather than hidden |
 
-The audio study used AMI and MUSAN-derived public clips and a smaller watch-collected adaptation set. Project notes record 84,099 public canonical clips and 780 device clips (390 train, 195 validation, 195 test). Those counts describe clips, not independent people or recording sessions. The selected metrics alone cannot establish session-level independence or eliminate source/recording leakage; a new study should audit those splits explicitly.
+The audio study used AMI and MUSAN-derived public clips and a smaller watch-collected adaptation set. Project notes record 84,099 public canonical clips and 780 device clips (390 train, 195 validation, 195 test). Those counts describe clips, not independent people or recording sessions. The selected metrics alone cannot establish session-level independence or eliminate source/recording leakage.
 
 For IMU training, the pipeline supported watchHAR, WISDM, Shoaib/UTwente and local office-seed inputs. The source model has a configurable class count; six active classes were used for this deployed artifact. The historical improvement is evidence of an adaptation workflow, not proof of generalization to arbitrary wearers.
 

@@ -2,15 +2,13 @@
 
 [← Portfolio](../README.md)
 
-The latest inspected `Reaper2403/amber-thesis` revision is **`14fb5b2bdf671a1b0b3926dca9d7f49ad33db480`** (repository last pushed 9 August 2026). It studies passive-sensing validity and temporal forecasting. It is separate from the ESP32 deployment work; its results do not validate a wearable or a battery estimator.
+The latest inspected `Reaper2403/amber-thesis` revision is **`14fb5b2bdf671a1b0b3926dca9d7f49ad33db480`** (repository last pushed 9 August 2026). It studies passive-sensing validity and temporal forecasting. This research is separate from the ESP32 deployment work.
 
 Only the methods most relevant to a new ML research project are selected here.
 
 ## 1. Compare with a baseline that can explain the result
 
 The later archive tested whether a complex passive-sensing model added information beyond prior labels and personal history. Stronger controls changed the interpretation of several initially promising findings. The useful habit is to ask what a simple persistence, calendar or history-only baseline already explains before claiming a learned advantage.
-
-For battery research, the analogous baselines and split units must be chosen with the supervisor and the battery literature. Randomly splitting nearby measurements from the same cell would answer a different question from testing transfer to an unseen cell or chemistry.
 
 ## 2. Refit across time
 

@@ -20,13 +20,11 @@
 - Audio summaries are protected by a mutex. The IMU remains serviced by the main loop while audio bursts run in a task.
 - BLE queue capacity is 1,024 records; the operational budget is 300, with flushing requested above 210 records or at a five-minute age cap. This age cap triggers a radio attempt; it is not a guaranteed delivery deadline without a receiver.
 
-## Timing boundaries worth measuring next
+## Timing limitations
 
 The **20 ms period is a target**, not demonstrated sustained 50 Hz sampling under combined load. Historical IMU `Invoke()` time is about 30 ms, and the loop invokes synchronously after each accepted sample; that work can stretch the acquisition cadence. The 150-sample input therefore represents a nominal three-second window, not a guaranteed three-second interval in this implementation.
 
 Likewise, five 2-second audio clips require at least ten seconds of capture plus frontend and inference time. The schedule reduces how often a burst is requested; there is no measured battery-life claim and no proof that the microphone/codec is powered down between bursts.
-
-The next integration benchmark should log accepted-sample timestamps, frontend and `Invoke()` times, missed deadlines, peak internal/PSRAM use, BLE drops, and current draw under simultaneous operation.
 
 ## Label and version boundaries
 
